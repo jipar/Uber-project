@@ -1,0 +1,13 @@
+@mixin transform($prop) {
+    -webkit-transform: $prop;
+    -o-transform: $prop;
+    -ms-transform: $prop;
+    -moz-transform: $prop;
+    transform: $prop;
+
+}
+@mixin btn_hover{
+    &:hover{
+        background: green;
+    }
+}

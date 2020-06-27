@@ -84,7 +84,7 @@ nav{
           }
         }
         &_btn{
-            margin-top: 19px;
+            margin: 19px;
             width: 182px;
             height: 56px;
             box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.6);
@@ -93,8 +93,10 @@ nav{
             background-image: linear-gradient(to top, $hover-color 0%, #4adffc 100%);
             color: white;
             font-size: 14px;
-            font-weight: 400px;
+            font-weight: 400;
             text-transform: uppercase;
+            text-align: center;
+
         }         
           
 

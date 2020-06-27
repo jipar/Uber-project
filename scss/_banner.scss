@@ -15,6 +15,8 @@ $hover-color:  #1eacc7;
         line-height: 60px;
         margin: 0;
         text-align: center;
+
+        @include transform(rotate(30deg));
     }
 
     &_subheader{
@@ -39,21 +41,25 @@ $hover-color:  #1eacc7;
     }
 
     &_btn{
-        margin-top: 100px;
-        margin: 0 auto;
-        width: 182px;
-        height: 56px;
+        display: block;
+        margin: 118px auto 0 auto;
+        width: 259px;
+        height: 63px;
         box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.6);
         border: none;
-        border-radius: 5px;
-        background-image: linear-gradient(to top, $hover-color 0%, #4adffc 100%);
+        border-radius: 4px;
+        background-image: linear-gradient(to top, $hover-color 0%, #4adffc 100%);   
         color: white;
         font-size: 14px;
-        font-weight: 400px;
+        font-weight: 400;
         text-transform: uppercase;
+        text-align: center;
+        padding-top: 16px;
+        @include transform (rotate (30deg));
+        @include btn_hover;
     
-       
     }
+
 
 }
 
